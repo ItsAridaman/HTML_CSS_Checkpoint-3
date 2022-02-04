@@ -1,0 +1,619 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container
+{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header-section-1
+{
+    background-color: rgb(7, 7, 46);
+    padding: 20px 00;
+    }
+.header-section-2
+{
+    display: flex;
+    padding: 20px 00;
+    align-items: center;
+        }
+.header-a
+{
+    color: white;
+    }
+.header-a-new
+{
+    margin-left: 35px;
+}
+.header-nav a
+{
+    color: white;
+    margin: 00 10px;
+    }
+.main-div-header-section-1, .header-main-div-section-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.header-part-1
+{
+    display: flex;
+    justify-content: space-between;
+}
+.buson-heading
+{
+    font-size: 28px;
+    color: rgb(4, 43, 4);
+    font-weight: 700;
+}
+.buson-dot
+{
+    height: 4px;
+    width: 4px;
+    background-color:rgb(226, 50, 80);
+    border-radius: 50%;
+    margin-top: 14px;
+}
+.header-section-2-nav a
+{
+text-decoration: none;
+font-size: 13px;
+color: black;
+margin: 00 6px;
+}
+.header-section-2-nav
+{
+    margin-right: 24px;
+}
+.contact-now-div 
+{
+    background-color: rgb(204, 39, 66);
+    text-align: center;
+    padding: 10px 15px;
+}
+.contact-now-div a
+{
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+.header-buson
+{
+    display: flex;
+    align-items: center;
+}
+.header-section-2-part-2
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* ---------------------section-1------------------------ */
+.section-1{
+    width: auto;
+    height: 700px;
+    background-image: url("checkpoint-3-pics/checkpoint-3-pic-16.jpg");
+    background-size: cover;
+}
+.heading-1
+{
+    font-size: 14px;
+    color: rgb(202, 40, 67);
+    display: block;
+}
+.heading-2
+{
+    font-size: 40px;
+    color:rgb(6, 6, 44);
+    margin-top: 40px;
+    margin-top: 30px;
+    font-weight: 800;
+ }
+.contact-now-div-1
+{
+    width: 120px;
+    margin-top: 40px;
+
+}
+.contact-now-div-1 a
+{
+    text-decoration: none;
+    color: white;
+
+}
+.main-div-section-1
+{
+    width: 330px;
+    height: 700px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 1.5;
+    margin-left: 360px;
+    }
+/* --------------------section-2--------------- */
+.section-2{
+background-color: rgb(233, 255, 255);
+}
+.main-div-section-2
+{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    padding: 90px 00;
+}
+.section-2-a
+{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 300px;
+}
+.section-2-a img{
+width: 100%;
+height: 220px;
+}
+.section-2-a a
+{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+.heading-3
+{
+    font-size: 20px;
+    color: rgb(3, 6, 32);
+    font-weight: 600;
+    margin: 10px 00;
+}
+.heading-4
+{
+    font-size: 30px;
+    color: rgb(3, 6, 32);
+    font-weight: 600;
+    }
+.para-1
+    {
+        font-size: 14px;
+        color: black;
+        margin: 10px 00;
+        line-height: 1.5;
+    }
+.last
+    {
+        padding: 20px;
+        width: 210px;
+        height: 280px;
+        border: 4px solid rgb(240, 81, 94);
+    }
+.arrow{
+        margin-bottom: 6px;
+    }
+    .arrow i{
+        font-size: 12px;
+
+    }
+    /* ------------------------section-3-------------------------- */
+
+    .main-div-section-3
+{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    margin: 0 auto;
+    padding: 90px 00;
+    position:relative;
+}
+.section-3-a
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+.section-3-b
+{
+display: flex;
+flex-direction: column;
+justify-content:center;
+width:320px;
+height:300px;
+padding: 30px;
+position: absolute;
+top: 200px;
+right: 25px;
+background-color: rgba(255, 255, 255, 0.6);
+}
+/* ------------------section-4---------------------- */
+
+.section-4-blocks{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 90px 00;
+}
+.heading-5
+{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+.section-4-heading
+{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section-4-a 
+{
+    width: 200px;
+    height: auto;
+}
+.main-div-section-4
+{
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.section-4-a i
+{
+    font-size: 28px;
+    display: block;
+    margin-bottom: 20px;
+}
+.more-services
+{
+    width: 120px;
+    border: 2px solid rgb(200, 136, 146);
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    }
+    .more-services a
+    {
+        text-decoration: none;
+        font-size: 15px;
+        color:rgb(200, 136, 146) ;
+    }
+    /* --------------------section-5------------------------------ */
+
+    .main-div-section-5
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 360px;
+        padding: 60px 00;
+    }
+      .section-5-a
+    {
+        width: 36%;
+        height: 340px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-5-b
+    {
+        width: 27%;
+        height: 340px;
+    }
+    .section-5-c
+    {
+        width: 7%;
+    }
+    .section-5-b img
+    {
+        width: 100%;
+        height: 340px;
+    }
+    .section-5-c img
+    {
+        height: 340px;
+        width: 470%;
+    }
+    .see-more
+    {
+        width: 120px;
+        border: 2px solid rgb(200, 136, 146);
+        text-align: center;
+        padding: 10px;
+    }
+    .see-more a
+    {
+      text-decoration: none;
+      font-size: 14px;
+      color: rgb(200, 136, 146);
+    }
+
+    /* -------------------------------section-6------------------------------ */
+
+    .main-div-section-6
+    {
+        text-align: center;
+        width: 500px;
+        margin: 0 auto;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        text-align: center;
+         align-items: center;    
+         padding: 40px 00px;
+    }
+   .para-2
+   {
+       font-size: 20px;
+       color: black;
+       line-height: 1.5;
+   }
+   .main-div-section-6 img
+   {
+       width: 100px;
+       height: 100px;
+          }
+   .stars
+   {
+       display: flex;
+   }
+   .star-1
+   {
+       width: 10px;
+       height: 10px;
+       background-color: rgb(250, 107, 54);
+       margin: 00px 5px;
+       border-radius: 50%;
+   }
+   .name-head
+   {
+    color: rgb(5, 66, 5);
+   }
+   .name-head-1
+   {
+       font-size: 10px;
+       color: black;
+   }
+   /* ---------------------section-7----------------------- */
+
+   .main-div-section-7
+   {
+       display: flex;
+       justify-content: space-between;
+       width: 900px;
+       margin: 0 auto;
+       padding: 50px 00;
+   }
+   .section-7-a
+   {
+       width: 32%;
+       height: 340px;
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+   }
+   .section-7-a img
+   {
+   width: 100%;
+   height: 200px;
+   }
+   .h-7
+   {
+font-size: 13px;
+color: rgb(236, 26, 57);
+   }
+   .h-8
+   {
+    font-size: 20px;
+    color: rgb(5, 4, 4);
+       }
+    .date 
+    {
+        font-size: 13px;
+        color: grey;
+    }
+.section-7
+{
+    text-align: center;
+    padding: 40px 00;
+}
+/* ------------------------section-8-------------------------- */
+
+.main-div-section-8
+{
+    width: 900px;
+    margin: 00 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 00;
+}
+.section-8
+{
+    background-color: rgb(44, 78, 172);
+}
+.section-8-a
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    width: 34%;
+}
+.h-9
+{
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+}
+.p-8
+{
+    font-size: 13px;
+    color: white;
+    font-weight: 100;
+    margin-top: 10px;
+}
+.section-8-b
+{
+    width: 52%;
+    height: 100px;
+}
+.section-8-b-part-2
+{
+  margin-top: 10px;
+}
+.section-8-b-part-1,.section-8-b-part-2
+{
+    display: flex;
+    justify-content: space-between;
+}
+.section-8-b-part-1-a,.section-8-b-part-1-b
+{
+    width: 45%;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 8px;
+    border-radius: 8px;
+}
+.section-8-b-part-2-a
+{
+    width: 60%;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+.section-8-b-part-2-a i
+{
+    color: white;
+}
+.section-8-b-part-2-b
+{
+    width: 140px;
+    background-color: rgb(233, 27, 55);
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+}
+.section-8-head
+{
+    color: white;
+    font-size: 13px;
+}
+.section-8-b-part-2-b a
+{
+    text-decoration: none;
+}
+/* ------------------------------section-9-------------------------- */
+
+.main-div-section-9
+{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+    padding: 90px 00;
+}
+.section-9-a
+{
+width: 25%;
+}
+.section-9-a img
+{
+    width: 140px;
+}
+.section-9-b
+{
+width: 20%;
+display: flex;
+flex-direction: column;
+}
+.footer-nav-1
+{
+    display: flex;
+    flex-direction: column;
+}
+.footer-nav-1 a
+{
+    text-decoration: none;
+    color: rgb(36, 35, 35);
+    font-size: 14px;
+    margin: 6px 00;
+    text-transform: capitalize;
+}
+.h-10
+{
+    font-size: 22px;
+    color: rgb(8, 8, 46);
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.footer-nav i
+{
+    font-size: 20px;
+    color: black;
+    margin-left: 6px;
+}
+.footer-nav
+{
+    margin-top: 15px;
+}
+.footer-end
+{
+    width: 900px;
+    margin: 0 auto;
+    padding: 60px 00;
+    text-align: center;
+}
+.footer-end-1
+{
+    margin-top: 20px;
+    color: rgb(119, 111, 111);
+}
